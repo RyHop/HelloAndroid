@@ -12,47 +12,50 @@
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
-        android:layout_height="0dp"
-        android:layout_weight="4.5"
+        android:layout_height="wrap_content"
         android:scaleType="centerInside"
         android:adjustViewBounds="true"
         app:srcCompat="@drawable/futureimage" />
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight=".01"
         android:text="@string/Company"
         android:layout_gravity="center"
+        android:padding="10dp"
         />
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight=".01"
         android:text="@string/Address"
         android:autoLink="map"
         android:layout_gravity="center"
+        android:padding="10dp"
+
         />
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight=".01"
         android:text="@string/cityStateZipCode"
         android:autoLink="map"
         android:layout_gravity="center"
+        android:padding="10dp"
+
         />
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight=".01"
         android:text="@string/cellNumber"
         android:autoLink="phone"
+        android:padding="10dp"
+
         android:layout_gravity="center"/>
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight=".01"
         android:text="@string/website"
+        android:padding="10dp"
+
         android:autoLink="web"
         android:layout_gravity="center"/>
 </LinearLayout>
