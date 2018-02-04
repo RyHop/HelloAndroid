@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#B3E5FC"
+    android:background="#90CAF9"
     android:orientation="vertical"
     tools:context="com.example.ryan.helloandroid.HelloAndroid">
 
@@ -21,7 +21,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/Company"
-        android:layout_gravity="center"
+        android:drawableLeft="@drawable/udacity_mark"
+        android:gravity="center"
         android:padding="10dp"
         />
     <TextView
@@ -29,8 +30,11 @@
         android:layout_height="wrap_content"
         android:text="@string/Address"
         android:autoLink="map"
+        android:drawableLeft="@drawable/addressIcon"
         android:layout_gravity="center"
         android:padding="10dp"
+        android:gravity="center"
+        android:background="#42A5F5"
 
         />
     <TextView
@@ -38,9 +42,11 @@
         android:layout_height="wrap_content"
         android:text="@string/cityStateZipCode"
         android:autoLink="map"
+        android:drawableLeft="@drawable/addressIcon"
         android:layout_gravity="center"
         android:padding="10dp"
-
+        android:gravity="center"
+        android:background="#2196F3"
         />
     <TextView
         android:layout_width="match_parent"
@@ -48,14 +54,16 @@
         android:text="@string/cellNumber"
         android:autoLink="phone"
         android:padding="10dp"
-
-        android:layout_gravity="center"/>
+        android:drawableLeft="@drawable/phone"
+        android:gravity="center"
+        android:background="#1E88E5"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/website"
+        android:drawableLeft="@drawable/web"
         android:padding="10dp"
-
+        android:gravity="center"
         android:autoLink="web"
-        android:layout_gravity="center"/>
+        android:background="#1976D2"/>
 </LinearLayout>
